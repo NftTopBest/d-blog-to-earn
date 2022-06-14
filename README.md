@@ -4,6 +4,8 @@
 
 GitHub: [https://github.com/NftTopBest/d-blog-to-earn](https://github.com/NftTopBest/d-blog-to-earn)
 
+Keynote(pdf version): [Web3BloggingToEarn.pdf](./Web3BloggingToEarn.pdf)
+
 Web3 NFT Open Platform For Novice Web3 Users.
 
 ## Application Features
