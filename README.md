@@ -1,5 +1,9 @@
 ## W3NS - Web3 NFT Social Platform
 
+<img src="./screenshot.png" />
+
+GitHub: [https://github.com/NftTopBest/d-blog-to-earn](https://github.com/NftTopBest/d-blog-to-earn)
+
 Web3 NFT Open Platform For Novice Web3 Users.
 
 ## Application Features
@@ -14,12 +18,27 @@ Web3 NFT Open Platform For Novice Web3 Users.
   * Followings list
 * Web3 LinkTree
   * User can add many social platform link to their W3NS home page
-  * Data store on Ceramic
+  * Data store on IPFS
   * Data permission control by LIT
 * Search any address to show the Web3 things
 
-<details>
-<summary><h2>Technologies used</h2></summary>
+## 应用功能
+
+* Blog: 用户创作经济
+  * 列出/创建博客内容，保存到 IPFS
+  * 结合 LIT 来可以让内容具有链上权限控制功能(用户必须购买作者指定的 NFT 才能看到博客内容）
+  * 博客内容添加了 token 网关功能逻辑（只有用户用特定的 NFT 才能阅读博客内容）
+* 社交关系：CyberConnect
+  * 关注/取关功能
+  * 用户粉丝列表
+  * 用户关注列表
+* Web3 LinkTree
+  * 用户可以添加多个社交平台链接到他们的主页
+  * 数据存储在 IPFS
+  * 数据读取权限可以用 LIT 控制
+* 搜索任何地址显示 web3 相关内容
+
+## echnologies used
 
 * BlockChain Network
   * [x] Polygon Mumbai testnet
@@ -47,5 +66,3 @@ Web3 NFT Open Platform For Novice Web3 Users.
   * [x] Vue-i18n
   * [x] Villus (gql && pinia binding lib)
   * [x] Vite2
-
-</details>
