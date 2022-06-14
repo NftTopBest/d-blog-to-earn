@@ -1,0 +1,8 @@
+{
+  "extends": "@antfu",
+  "globals": {
+    "Moralis": true,
+    "keccak256": true,
+    "MerkleTree": true,
+  }
+}
