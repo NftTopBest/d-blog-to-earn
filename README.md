@@ -2,9 +2,9 @@
 
 <img src="./screenshot.png" />
 
-GitHub: [https://github.com/NftTopBest/d-blog-to-earn](https://github.com/NftTopBest/d-blog-to-earn)
-
-Keynote(pdf version): [Web3BloggingToEarn.pdf](./Web3BloggingToEarn.pdf)
+* GitHub: [https://github.com/NftTopBest/d-blog-to-earn](https://github.com/NftTopBest/d-blog-to-earn)
+* demo: [click to see demo](https://dev.web3nft.social/0xC6E58fb4aFFB6aB8A392b7CC23CD3feF74517F6C/blog)
+* Keynote(pdf version): [Web3BloggingToEarn.pdf](./Web3BloggingToEarn.pdf)
 
 Web3 NFT Open Platform For Novice Web3 Users.
 
