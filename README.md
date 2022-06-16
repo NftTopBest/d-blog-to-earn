@@ -10,15 +10,15 @@ Web3 NFT Open Platform For Novice Web3 Users.
 
 ## Application Features
 
-* Blog: user creation for sale
+* Blog: user creation for sale [source code](https://github.com/NftTopBest/d-blog-to-earn/blob/main/src/components/web3/nft/article/Form.vue)
   * list/create blog posts, save in IPFS
   * With LIT to have content permission control (user must mint poster's NFT to have access to the article)
-  * blog content can add token gating logic (only user have special NFT can read the blog content)
+  * blog content can add token gating logic (only user have special NFT can read the blog content) [source code](https://github.com/NftTopBest/d-blog-to-earn/blob/main/src/pages/web3nft.social/%5BuserWalletAddress%5D/blog/%5Bid%5D.vue)
 * Social relations: CyberConnect
-  * Follow/unfollow actions
-  * Followers list
-  * Followings list
-* Web3 LinkTree
+  * Follow/unfollow actions [source code](https://github.com/NftTopBest/d-blog-to-earn/blob/main/src/components/web3/nft/btn/Follow.vue)
+  * Followers list  [source code](https://github.com/NftTopBest/d-blog-to-earn/blob/main/src/components/web3/nft/dialog/relationshipList.vue)
+  * Followings list [source code](https://github.com/NftTopBest/d-blog-to-earn/blob/main/src/components/web3/nft/dialog/relationshipList.vue)
+* Web3 LinkTree  [source code](https://github.com/NftTopBest/d-blog-to-earn/blob/main/src/pages/web3nft.social/settings/Web3Home.vue)
   * User can add many social platform link to their W3NS home page
   * Data store on IPFS
   * Data permission control by LIT
@@ -26,15 +26,15 @@ Web3 NFT Open Platform For Novice Web3 Users.
 
 ## 应用功能
 
-* Blog: 用户创作经济
+* Blog: 用户创作经济 [source code](https://github.com/NftTopBest/d-blog-to-earn/blob/main/src/components/web3/nft/article/Form.vue)
   * 列出/创建博客内容，保存到 IPFS
   * 结合 LIT 来可以让内容具有链上权限控制功能(用户必须购买作者指定的 NFT 才能看到博客内容）
-  * 博客内容添加了 token 网关功能逻辑（只有用户用特定的 NFT 才能阅读博客内容）
+  * 博客内容添加了 token 网关功能逻辑（只有用户用特定的 NFT 才能阅读博客内容）[source code](https://github.com/NftTopBest/d-blog-to-earn/blob/main/src/pages/web3nft.social/%5BuserWalletAddress%5D/blog/%5Bid%5D.vue)
 * 社交关系：CyberConnect
-  * 关注/取关功能
-  * 用户粉丝列表
-  * 用户关注列表
-* Web3 LinkTree
+  * 关注/取关功能 [source code](https://github.com/NftTopBest/d-blog-to-earn/blob/main/src/components/web3/nft/btn/Follow.vue)
+  * 用户粉丝列表 [source code](https://github.com/NftTopBest/d-blog-to-earn/blob/main/src/components/web3/nft/dialog/relationshipList.vue)
+  * 用户关注列表 [source code](https://github.com/NftTopBest/d-blog-to-earn/blob/main/src/components/web3/nft/dialog/relationshipList.vue)
+* Web3 LinkTree [source code](https://github.com/NftTopBest/d-blog-to-earn/blob/main/src/pages/web3nft.social/settings/Web3Home.vue)
   * 用户可以添加多个社交平台链接到他们的主页
   * 数据存储在 IPFS
   * 数据读取权限可以用 LIT 控制
@@ -68,3 +68,5 @@ Web3 NFT Open Platform For Novice Web3 Users.
   * [x] Vue-i18n
   * [x] Villus (gql && pinia binding lib)
   * [x] Vite2
+
+<img src="./screenshot-2.png" />
