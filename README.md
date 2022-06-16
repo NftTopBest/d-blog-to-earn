@@ -40,7 +40,7 @@ Web3 NFT Open Platform For Novice Web3 Users.
   * 数据读取权限可以用 LIT 控制
 * 搜索任何地址显示 web3 相关内容
 
-## echnologies used
+## Technologies used
 
 * BlockChain Network
   * [x] Polygon Mumbai testnet
