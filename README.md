@@ -3,13 +3,14 @@
 <img src="./screenshot.png" />
 
 * GitHub: [https://github.com/NftTopBest/d-blog-to-earn](https://github.com/NftTopBest/d-blog-to-earn)
-* demo: [click to see demo](https://dev.web3nft.social/0xC6E58fb4aFFB6aB8A392b7CC23CD3feF74517F6C/blog)
+* demo: [click to see demo](https://owf.web3nft.social/0xC6E58fb4aFFB6aB8A392b7CC23CD3feF74517F6C/blog)
 * Keynote(pdf version): [Web3BloggingToEarn.pdf](./Web3BloggingToEarn.pdf)
 
 Web3 NFT Open Platform For Novice Web3 Users.
 
 ## Application Features
 
+* User NFT list by [blockdaemon](https://blockdaemon.com/documentation/ubiquity-api/nft-api/get-nft-assets/) api: [source code](https://github.com/NftTopBest/d-blog-to-earn/blob/main/src/components/web3/nft/NftListBlockDaemon.vue)
 * Blog: user creation for sale [source code](https://github.com/NftTopBest/d-blog-to-earn/blob/main/src/components/web3/nft/article/Form.vue)
   * list/create blog posts, save in IPFS
   * With LIT to have content permission control (user must mint poster's NFT to have access to the article)
