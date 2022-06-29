@@ -65,7 +65,7 @@ const toggleFollow = async() => {
 </script>
 
 <template>
-  <button type="button" class="bg-white border rounded-md font-medium border-gray-300 shadow-sm text-sm py-2 px-4 text-gray-700 inline-flex justify-center hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-sky-500 disabled:(cursor-not-allowed) " :disabled="isLoading" @click="toggleFollow">
+  <button type="button" class="bg-white border rounded-md font-medium border-gray-300 shadow-sm text-sm py-2 px-4 text-gray-700 inline-flex justify-center hover:bg-gray-50 focus:outline-none disabled:(cursor-not-allowed) " :disabled="isLoading" @click="toggleFollow">
     <template v-if="isLoading">
       <eos-icons:loading />
     </template>

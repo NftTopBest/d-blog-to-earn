@@ -32,8 +32,10 @@ const coverImg = $ref('')
 const isGating = $ref(true)
 const nftContractAddress = $ref('0x17f6bdf57384fd9f24f1d9a4681c3a9dc839d79e')
 // const nftContractAddress = $ref('0x88b48f654c30e99bc2e4a1559b4dcf1ad93fa656')
+let isLoading = $ref(false)
 
 const createPost = async() => {
+  isLoading = true
   let theContent = content
   if (isGating) {
     const chain = 'rinkeby'
@@ -78,6 +80,7 @@ const createPost = async() => {
     })
 
   if (rz.data.IpfsHash) {
+    isLoading = false
     emit('close')
     addSuccess('add success')
   }
@@ -86,7 +89,10 @@ const createPost = async() => {
 </script>
 <template>
   <DialogWide @close="$emit('close')">
-    <div class="divide-y space-y-8 divide-gray-200 p-5">
+    <div v-if="isLoading" class="flex h-50 w-full justify-center items-center">
+      <eos-icons:loading class="h-10 w-10" />
+    </div>
+    <div v-else class="divide-y space-y-8 divide-gray-200 p-5">
       <div class="divide-y space-y-8 divide-gray-200">
         <div>
           <div class="mt-6 grid gap-y-6 gap-x-4 grid-cols-1 sm:grid-cols-6">
